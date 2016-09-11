@@ -56,7 +56,7 @@ describe "Bundler" do
         Bundler.with_clean_env do
           bundle_output_without_development = `bundle --without development`
         end
-        expect(bundle_output_without_development =~ /pry/).to eq(821)
+        expect(bundle_output_without_development =~ /pry/).to eq(nil)
       end
 
       # http://bundler.io/v1.3/groups.html
