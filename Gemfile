@@ -7,4 +7,3 @@ gem 'pry', :group => :development
 group :test do
   gem "rspec"
 end
-#gem 'awesome_print', :git => 'git://github.com/tanoku/redcarpet.git'
