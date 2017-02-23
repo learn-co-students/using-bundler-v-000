@@ -216,11 +216,11 @@ require_relative '../config/environment'
 
 That's it! Now we can access all of our gems from our `run.rb` file.
 
-### require and require_relative 
+### require and require_relative
 
-You will notice that we use two different require methods while setting up our environment and bin files. 
+You will notice that we use two different require methods while setting up our environment and bin files.
 
-While both of these methods might look similiar they do different things. Both load a file based on the filename passed in as a parameter and return true if the file was found and loaded successfully and they will raise a LoadError if it returns false. However... 
+While both of these methods might look similiar they do different things. Both load a file based on the filename passed in as a parameter and return true if the file was found and loaded successfully and they will raise a LoadError if it returns false. However...
 
 * [require](http://apidock.com/ruby/Kernel/require) takes an absolute path for the filename, so the file must either be in the directory from which the application is being run or in one of the directories in your shell's PATH variable (which often includes the directory containing the gems you've installed).
 
