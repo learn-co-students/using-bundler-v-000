@@ -1,4 +1,4 @@
-
+# connects all files to make program run
 require_relative '../config/environment'
 
 Hashie

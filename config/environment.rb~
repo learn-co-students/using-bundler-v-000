@@ -1,0 +1,9 @@
+# put order of load info so all external libs will load
+
+# tells app to bundle install gems
+require 'bundler/setup' 
+# specifying which Bundler groups to load
+# 'default' - anything not specified in group(s)
+# 'dev.' loads the dev group
+# this order matters
+Bundler.require(:default, :development)
