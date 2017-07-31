@@ -19,7 +19,7 @@ describe "Bundler" do
 
     # http://bundler.io/v1.3/gemfile.html
     it "should specify rubygems as a source using the SSL protocol on the first line" do
-      expect(@gemfile_text =~ /source ['"]https:\/\/rubygems\.org['"]/).not_to eq(nil)
+      expect(@gemfile_text =~ /source ['"]https:\/\/(www\.)?rubygems.org\/?['"]/).not_to eq(nil)
     end
 
     # http://bundler.io/v1.3/gemfile.html
