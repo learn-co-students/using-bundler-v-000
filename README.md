@@ -175,8 +175,7 @@ group :development do
 end
 ```
 
-**Run your test suite with `rspec` or `learn` to see what gems you'll be adding to your gem file. Add the appropriate gems, specifying their version when necessary, to get the tests passing**.
-
+**Run your test suite with `rspec` or `learn` to see what gems you'll be
 After getting all of your gems in your Gemfile, run `bundle install` from your terminal. This will install the listed gems for you. They won't show up in the directory, but they are in your system, and available.
 
 Running `bundle install` also creates a new file: `Gemfile.lock`. This file notes which specific version of the gem was installed.
