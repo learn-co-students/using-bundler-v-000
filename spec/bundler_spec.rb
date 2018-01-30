@@ -1,4 +1,5 @@
 require 'bundler'
+require 'pry'
 
 describe "Bundler" do
   before :all do
