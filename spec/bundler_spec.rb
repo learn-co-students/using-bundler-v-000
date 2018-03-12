@@ -1,6 +1,6 @@
 require 'bundler'
 
-describe "Bundler" do
+puts describe "Bundler" do
   before :all do
     @bundle_output = ""
     Bundler.with_clean_env do
@@ -8,7 +8,7 @@ describe "Bundler" do
     end
   end
 
-  describe "Gemfile" do
+  puts describe "Gemfile" do
     before :all do
       @gemfile_text = File.read('Gemfile')
     end
