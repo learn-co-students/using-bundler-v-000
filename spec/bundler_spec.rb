@@ -1,4 +1,5 @@
 require 'bundler'
+require 'pry'
 
 describe "Bundler" do
   before :all do
@@ -24,7 +25,7 @@ describe "Bundler" do
 
     # http://bundler.io/v1.3/gemfile.html
     it "should list the hashie gem without specifying a version" do
-      expect(@gemfile_text =~ /gem ['"]hashie['"]$/).not_to eq(nil)
+      expect(@gemfile_text =~ /gem ['"]hashie['"]/).not_to eq(nil)
     end
 
     # http://bundler.io/v1.3/gemfile.html
