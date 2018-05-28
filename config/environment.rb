@@ -1,1 +1,4 @@
-Bundler.require(:hashies)
+
+require 'bundler/setup'
+Bundler.require(:default, :development)
+
