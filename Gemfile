@@ -1,7 +1,19 @@
-source "https://rubygems.org"
-gem "rspec"
-gem "sinatra", '~> 1.4', '= 1.4.4'
+source "https://rubygems.org" do
+  gem "octokit", '~>2.0'
+  gem "sinatra", '1.4.4'
 
-group :development do
-  gem "pry"
+end
+
+#source 'git@github.com/awesome_print/awesome_print' do
+#    gem "awesome_print"
+#end
+
+
+
+
+
+gem "pry", :group => "development"
+
+group :test do
+  gem 'rspec'
 end
