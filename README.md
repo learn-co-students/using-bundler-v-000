@@ -18,7 +18,7 @@ Google is often a good starting place. Let's assume we are looking for a gem to 
 
 #### How to choose the right gem?
 
-Let's assume we decided to search `https://rubygems.org` for the right gem. Let's head to their advanced search interface `https://rubygems.org/search/advanced` and search for `email rails` using the description field. The advanced search interface will give us more flexibility in the way we search for the ideal gem. 
+Let's assume we decided to search `https://rubygems.org` for the right gem. Let's head to their advanced search interface `https://rubygems.org/search/advanced` and search for `email rails` using the description field. The advanced search interface will give us more flexibility in the way we search for the ideal gem.
 
 ![](https://curriculum-content.s3.amazonaws.com/web-development/ruby/rubygems-advanced-search.png)
 
@@ -213,11 +213,11 @@ require_relative '../config/environment'
 
 That's it! Now we can access all of our gems from our `run.rb` file.
 
-### require and require_relative 
+### require and require_relative
 
-You will notice that we use two different require methods while setting up our environment and bin files. 
+You will notice that we use two different require methods while setting up our environment and bin files.
 
-While both of these methods might look similiar they do different things. Both load a file based on the filename passed in as a parameter and return true if the file was found and loaded successfully and they will raise a LoadError if it returns false. However... 
+While both of these methods might look similiar they do different things. Both load a file based on the filename passed in as a parameter and return true if the file was found and loaded successfully and they will raise a LoadError if it returns false. However...
 
 * [require](http://apidock.com/ruby/Kernel/require) takes an absolute path for the filename, so the file must either be in the directory from which the application is being run or in one of the directories in your shell's PATH variable (which often includes the directory containing the gems you've installed).
 
