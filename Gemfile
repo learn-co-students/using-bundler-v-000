@@ -4,6 +4,7 @@ source "https://rubygems.org" do
   gem "hashie"
 end
 
+gem 'awesome_print', '1.2.0', :git => 'https://github.com/awesome-print/awesome_print'
 
 
 
