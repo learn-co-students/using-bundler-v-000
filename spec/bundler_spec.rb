@@ -21,12 +21,12 @@ describe "Bundler" do
     it "should specify rubygems as a source using the SSL protocol on the first line" do
       expect(@gemfile_text =~ /source ['"]https:\/\/rubygems\.org['"]/).not_to eq(nil)
     end
-=begin
+
     # http://bundler.io/v1.3/gemfile.html
     it "should list the hashie gem without specifying a version" do
-      expect(@gemfile_text =~ /gem ['"]hashie['"]$/).not_to eq(nil)
+      expect(@gemfile_text =~ /gem ['"]hashie['"]/).not_to eq(nil)
     end
-=end
+
     # http://bundler.io/v1.3/gemfile.html
     it "should list the sinatra gem with the specific version 1.4.4" do
       expect(@gemfile_text =~ /gem ['"]sinatra['"], ?['"]v?1\.4\.4['"]/).not_to eq(nil)
