@@ -1,5 +1,7 @@
-$ bundle install
-$git add Gemfile Gemfile.lock
+require_relative '../config/environment'
+
+$ bundle
+$ git add Gemfile Gemfile.lock
 Hashie
 Sinatra
 Octokit
