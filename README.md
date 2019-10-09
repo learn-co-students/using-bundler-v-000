@@ -4,7 +4,6 @@
 
 - Learn about requiring external code libraries, called gems, in your Ruby
   applications.
-
 - Learn how to use Bundler and a Gemfile to manage gems and their dependencies
   in your applications.
 
