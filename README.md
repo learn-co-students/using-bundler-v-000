@@ -354,9 +354,11 @@ returns false. However...
 
 ## Resources
 
-- [RailsCasts](http://railscasts.com/) - [#201 Bundler (revised)](http://railscasts.com/episodes/201-bundler-revised)
-- [Bundler Docs](http://bundler.io/docs.html) - [Bundler with Sinatra](http://bundler.io/v1.16/guides/sinatra.html)
-
+- [RailsCasts](http://railscasts.com/) 
+- [#201 Bundler (revised)](http://railscasts.com/episodes/201-bundler-revised)
+- [Bundler Docs](http://bundler.io/docs.html) 
+- [Bundler with Sinatra](http://bundler.io/v1.16/guides/sinatra.html)
+- [ActionMailer](https://guides.rubyonrails.org/action_mailer_basics.html)
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/using-bundler' title='Gems and Bundler'>Gems and Bundler</a> on Learn.co and start learning to code for free.</p>
 
 [require]: http://apidock.com/ruby/Kernel/require
