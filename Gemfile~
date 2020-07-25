@@ -1,12 +1,17 @@
 source "https://rubygems.org"
 
 gem 'hashie'
+# specifies a specific version of gem
 gem 'sinatra', '1.4.4'
+# specifies specific version with twiddle-wakka '~>'
 gem 'octokit', '~> 2.0'
+# specifies a remote git repository for 'awesome print'
 gem 'awesome_print', :git => 'https://github.com/awesome-print/awesome_print'
 
+# format group gems in hash syntax
 gem 'pry', :group => 'development'
 
+# format group gems in block syntax
 group :test do
 	gem 'rspec'
 end
