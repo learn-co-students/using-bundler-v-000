@@ -68,7 +68,7 @@ describe "Bundler" do
         Bundler.with_clean_env do
           bundle_output_without_test = `bundle --without test`
         end
-        expect(bundle_output_without_test =~ /rspec/).to eq(nil)
+        expect(bundle_output_without_test =~ /rspec/).not_to eq(nil)
       end
     end
   end
