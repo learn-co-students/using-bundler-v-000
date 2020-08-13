@@ -27,8 +27,7 @@ source. Together we can create something no single person could make.
 
 Google is often a good starting place. Let's assume we are looking for a gem to
 send emails. We could google `ruby gem to send emails`. Another option is to go
-to `https://rubygems.org/search/advanced` or `https://rubylaser.org/` and enter
-`email` in the search bar.
+to `https://rubygems.org/search/advanced` and enter `email` in the search bar.
 
 #### How to Choose the Right Gem
 
