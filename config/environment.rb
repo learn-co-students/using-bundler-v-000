@@ -1,2 +1,4 @@
 require 'bundler/setup'
-Bundler.require(:default,:developement)
+Bundler.require(:default, :development)
+
+bundle exec [../bin/run.rb]
