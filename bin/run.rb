@@ -1,5 +1,3 @@
-Hashie
-Sinatra
-Octokit
-Pry
-AwesomePrint
+# require_relative '../config/envirnoment'
+#
+# bundle exec [../bin/run.rb]
